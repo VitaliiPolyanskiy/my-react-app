@@ -1,12 +1,13 @@
 import "./App.css";
 
 function App() {
-
   return (
-     <h1>
-      React — JavaScript-библиотека с открытым исходным кодом для разработки
-      пользовательских интерфейсов.
-    </h1>
+    <main className="container">
+      <h1 className="title">
+        <span className="text-gradient">React</span> — JavaScript-бібліотека з 
+        відкритим вихідним кодом для розробки користувацьких інтерфейсів.
+      </h1>
+    </main>
   );
 }
 
